@@ -1,8 +1,8 @@
-# CIT-594 Hard Mode
+# CIT-594 Plus
 
 This is a community-repository created by and for the students of the UPenn MCIT Program. In the first half of CIT-594, we cover a number of data structures and our assignments cover _some_ applications of each data structure and _some_ problems that you may encounter when using these data structures.
 
-However, as students, we know there's a lot more we still need to learn. **So this is CIT-594 Hard Mode**, where we've prepared a number of leetcode questions of increasing difficulty to accompany each data structure, and to prepare you for more of the patterns that you may encounter in technical intereviews.
+However, as students, we know there's a lot more we still need to learn. **So this is CIT-594 Plus**, where we've prepared a number of leetcode questions of increasing difficulty to accompany each data structure, and to prepare you for more of the patterns that you may encounter in technical intereviews.
 
 We encourage future students of CIT-594 to tackle these bonus problems each week as they're studying the data structure to increase the depth of their knowledge on the use and application of these data structures.
 
