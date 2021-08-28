@@ -30,18 +30,21 @@ public class TwoSum {
 
         int[] nums1 = { 2, 7, 11, 15 };
         int[] result1 = twoSum(nums1, 9);
-        assertTrue(Arrays.asList(result1).contains(0));
-        assertTrue(Arrays.asList(result1).contains(1));
+        Arrays.sort(result1); // Sort to ensure assert works
+        int[] expected1 = { 0, 1 };
+        assertArrayEquals(expected1, result1);
 
         int[] nums2 = { 3, 2, 4 };
         int[] result2 = twoSum(nums2, 6);
-        assertTrue(Arrays.asList(result2).contains(1));
-        assertTrue(Arrays.asList(result2).contains(2));
+        Arrays.sort(result2); // Sort to ensure assert works
+        int[] expected2 = { 1, 2 };
+        assertArrayEquals(expected2, result2);
 
         int[] nums3 = { 3, 3 };
         int[] result3 = twoSum(nums3, 6);
-        assertTrue(Arrays.asList(result3).contains(0));
-        assertTrue(Arrays.asList(result3).contains(1));
+        Arrays.sort(result3); // Sort to ensure assert works
+        int[] expected3 = { 0, 1 };
+        assertArrayEquals(expected3, result3);
 
     }
 }
