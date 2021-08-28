@@ -9,7 +9,7 @@ We encourage future students of CIT-594 to tackle these bonus problems each week
 | Module | Data Structure                     |
 | ------ | ---------------------------------- |
 | 1      | [Arrays / ArrayLists](/src/Arrays) |
-| 2      | LinkedLists                        |
+| 2      | [LinkedLists](/src/LinkedLists)    |
 | 2      | Stacks & Queues                    |
 | 4      | HashSets & HashMaps                |
 | 5      | Binary Search Trees                |
