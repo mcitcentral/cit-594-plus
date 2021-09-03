@@ -6,17 +6,18 @@ However, as students, we know there's a lot more we still need to learn. **So th
 
 We encourage future students of CIT-594 to tackle these bonus problems each week as they're studying the data structure to increase the depth of their knowledge on the use and application of these data structures.
 
-| Module | Data Structure                     |
-| ------ | ---------------------------------- |
-| 1      | [Arrays / ArrayLists](/src/Arrays) |
-| 2      | [LinkedLists](/src/LinkedLists)    |
-| 2      | Stacks & Queues                    |
-| 4      | HashSets & HashMaps                |
-| 5      | Binary Search Trees                |
-| 6      | Red-Black Trees & AVL Trees        |
-| 7      | Heaps                              |
-| 7      | Tries                              |
-| 8      | Graphs                             |
+| Module | Data Structure                                    | # Questions |
+| ------ | ------------------------------------------------- | ----------- |
+| 1      | [Arrays / ArrayLists](/src/Arrays)                | 20          |
+| 2      | [LinkedLists](/src/LinkedLists)                   | 18          |
+| 2      | [Stacks & Queues](/src/StacksAndQueues)           | 12          |
+| 4      | [HashSets & HashMaps](/src/HashSetsAndMaps)       | 6           |
+| 5      | [Binary Search Trees](/src/BinarySearchTrees)     | 18          |
+| 6      | [Balanced Binary Trees](/src/BalancedBinaryTrees) | 3           |
+| 7      | [Heaps](/src/Heaps)                               | 6           |
+| 7      | [Tries](/src/Tries)                               | 6           |
+| 8      | [Graphs](/src/Graphs)                             | 12          |
+|        | **Total**                                         | 101         |
 
 ## How to use this repository
 
