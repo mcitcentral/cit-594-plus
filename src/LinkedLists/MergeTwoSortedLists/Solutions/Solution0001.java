@@ -3,6 +3,7 @@ package LinkedLists.MergeTwoSortedLists.Solutions;
 import org.junit.*;
 import static org.junit.Assert.*;
 import LinkedLists.ListNode;
+import java.util.*;
 
 /**
  * Merge Two Sorted Lists | Leetcode #0021 | Easy
@@ -66,6 +67,8 @@ public class Solution0001 {
     ListNode c = new ListNode(0);
     int[] expected2 = { 0 };
     assertArrayEquals(expected2, mergeTwoLists(null, c).toArray());
+
+    System.out.println("All tests passed.");
 
   }
 

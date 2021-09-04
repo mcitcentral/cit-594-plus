@@ -2,8 +2,8 @@ package LinkedLists.ReverseLinkedListII;
 
 import org.junit.*;
 import static org.junit.Assert.*;
-
 import LinkedLists.ListNode;
+import java.util.*;
 
 /**
  * Reverse Linked List II | Leetcode #0092 | Medium
@@ -44,6 +44,8 @@ public class ReverseLinkedListII {
     reverseBetween(b1, 1, 1);
     int[] expectedB = { 5 };
     assertArrayEquals(expectedB, b1.toArray());
+
+    System.out.println("All tests passed.");
 
   }
 

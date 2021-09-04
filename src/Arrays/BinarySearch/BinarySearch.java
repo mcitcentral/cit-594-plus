@@ -2,6 +2,7 @@ package Arrays.BinarySearch;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Binary Search | Leetcode #0704 | Easy
@@ -31,5 +32,7 @@ public class BinarySearch {
 
 		int[] nums2 = { -1, 0, 3, 5, 9, 12 };
 		assertEquals(-1, search(nums2, 2));
+
+		System.out.println("All tests passed.");
 	}
 }

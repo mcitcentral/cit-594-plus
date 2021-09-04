@@ -1,10 +1,8 @@
 package Arrays.TwoSum.Solutions;
 
-import java.util.Arrays;
-import java.util.HashMap;
-
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Two Sum | Leetcode #0001 | Medium
@@ -57,6 +55,8 @@ public class Solution0001 {
     Arrays.sort(result3); // Sort to ensure assert works
     int[] expected3 = { 0, 1 };
     assertArrayEquals(expected3, result3);
+
+    System.out.println("All tests passed.");
 
   }
 }

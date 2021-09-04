@@ -2,6 +2,7 @@ package Arrays.SearchInRotatedSortedArray.Solutions;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Search in Rotated Sorted Array | Leetcode #0033 | Medium
@@ -56,6 +57,8 @@ public class Solution0001 {
 
     int[] nums3 = { 4, 5, 6, 7, 8, 1, 2 };
     assertEquals(4, search(nums3, 8));
+
+    System.out.println("All tests passed.");
 
   }
 

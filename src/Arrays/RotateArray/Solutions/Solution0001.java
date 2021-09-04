@@ -2,6 +2,7 @@ package Arrays.RotateArray.Solutions;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Rotate Array | Leetcode #0189 | Medium
@@ -69,5 +70,8 @@ public class Solution0001 {
     rotate(nums3, 4);
     int[] expected3 = { 1, 2, 3, 4 };
     assertArrayEquals(expected3, nums3);
+
+    System.out.println("All tests passed.");
+
   }
 }

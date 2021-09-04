@@ -2,6 +2,7 @@ package Arrays.FirstBadVersion.Solutions;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * First Bad Version | Leetcode #0278 | Easy
@@ -58,5 +59,7 @@ public class Solution0001 {
 
     match = 1;
     assertEquals(1, firstBadVersion(1));
+
+    System.out.println("All tests passed.");
   }
 }
