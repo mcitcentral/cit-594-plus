@@ -3,6 +3,7 @@ package LinkedLists.PalindromeLinkedList;
 import org.junit.*;
 import static org.junit.Assert.*;
 import LinkedLists.ListNode;
+import java.util.*;
 
 /**
  * Palindrome Linked List| Leetcode #0234 | Easy
@@ -39,6 +40,8 @@ public class PalindromeLinkedList {
     ListNode b2 = new ListNode(2);
     b1.next = b2;
     assertFalse(isPalindrome(b1));
+
+    System.out.println("All tests passed.");
 
   }
 

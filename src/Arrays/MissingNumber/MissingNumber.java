@@ -2,6 +2,7 @@ package Arrays.MissingNumber;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Missing Number | Leetcode #0268 | Easy
@@ -37,6 +38,8 @@ public class MissingNumber {
 
     int[] nums4 = { 0 };
     assertEquals(1, missingNumber(nums4));
+
+    System.out.println("All tests passed.");
 
   }
 

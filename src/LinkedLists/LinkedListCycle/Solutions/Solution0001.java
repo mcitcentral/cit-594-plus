@@ -3,6 +3,7 @@ package LinkedLists.LinkedListCycle.Solutions;
 import org.junit.*;
 import static org.junit.Assert.*;
 import LinkedLists.ListNode;
+import java.util.*;
 
 /**
  * Linked List Cycle | Leetcode #0141 | Easy
@@ -54,6 +55,8 @@ public class Solution0001 {
 
     ListNode c1 = new ListNode(1);
     assertFalse(hasCycle(c1));
+
+    System.out.println("All tests passed.");
 
   }
 

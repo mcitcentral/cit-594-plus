@@ -20,5 +20,6 @@ public class ListNode {
       curr = curr.next;
     }
     return arr.stream().mapToInt(Integer::valueOf).toArray();
+
   }
 }

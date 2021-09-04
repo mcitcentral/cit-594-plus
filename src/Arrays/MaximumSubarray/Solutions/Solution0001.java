@@ -2,6 +2,7 @@ package Arrays.MaximumSubarray.Solutions;
 
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.*;
 
 /**
  * Maximum Subarray | Leetcode #0278 | Easy
@@ -46,6 +47,8 @@ public class Solution0001 {
 
     int[] nums3 = { 5, 4, -1, 7, 8 };
     assertEquals(23, maxSubArray(nums3));
+
+    System.out.println("All tests passed.");
 
   }
 }
